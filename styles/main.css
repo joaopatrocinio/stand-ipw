@@ -35,3 +35,11 @@ body
     height: 85px;
     vertical-align: middle;
 }
+
+#img-slide
+{
+    width: 100%;
+    max-width: 1107px;
+    margin: 0 auto;
+    display: block;
+}
