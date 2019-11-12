@@ -1,0 +1,37 @@
+body
+{
+    margin: 0px;
+    font-family: Verdana;
+}
+
+#main-nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8BD3E1;
+    align-items: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#main-nav li {
+    float: left;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.active
+{
+    font-weight: bold;
+}
+
+#main-nav img
+{
+    height: 85px;
+    vertical-align: middle;
+}
