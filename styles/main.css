@@ -4,6 +4,12 @@ body
     font-family: Verdana;
 }
 
+#wrapper
+{
+    max-width: 1107px;
+    margin: 0 auto;
+}
+
 #main-nav
 {
     display: flex;
@@ -23,6 +29,7 @@ body
     float: left;
     padding: 10px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .active
@@ -39,7 +46,41 @@ body
 #img-slide
 {
     width: 100%;
-    max-width: 1107px;
+}
+
+.marca
+{
+    background-color: white;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 8px;
+}
+
+.marca img
+{
+    height: 100px;
     margin: 0 auto;
     display: block;
+}
+
+.marca figcaption
+{
+    text-align: center;
+}
+
+#marcas
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section > header > h4
+{
+    text-align: center;
+}
+
+.colored-section
+{
+    background-color: #8BD3E1;
 }
