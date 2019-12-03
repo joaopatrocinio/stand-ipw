@@ -6,16 +6,13 @@ body
 
 #wrapper
 {
-    max-width: 1107px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 #main-nav
 {
-    display: flex;
-    justify-content: space-around;
-    background-color: #8BD3E1;
-    align-items: center;
+
 }
 
 #main-nav ul {
@@ -27,7 +24,7 @@ body
 
 #main-nav li {
     float: left;
-    padding: 10px;
+    padding: 0px 15px;
     color: #ffffff;
     cursor: pointer;
 }
@@ -39,7 +36,7 @@ body
 
 #main-nav img
 {
-    height: 85px;
+    height: 110px;
     vertical-align: middle;
 }
 
@@ -54,13 +51,18 @@ body
     border-radius: 30px;
     padding: 12px;
     margin: 8px;
+    width: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .marca img
 {
-    height: 100px;
     margin: 0 auto;
     display: block;
+    max-width: 105px;
 }
 
 .marca figcaption
@@ -78,9 +80,62 @@ body
 section > header > h4
 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .colored-section
 {
     background-color: #8BD3E1;
+    padding-top: 1px;
+    margin-top: -5px;
+    padding-bottom: 30px;
+}
+
+.nav-wrapper
+{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #8BD3E1;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+footer
+{
+    padding: 10px;
+    background-color: #8BD3E1;
+}
+
+footer > p
+{
+    text-align: center;
+}
+
+.search-bar
+{
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.carro-destaque
+{
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.carro-destaque > img
+{
+    width: 200px;
+}
+
+.destaques
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
