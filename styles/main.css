@@ -6,7 +6,7 @@ body
 
 #wrapper
 {
-    max-width: 1300px;
+  /*  max-width: 1300px; */
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ section > header > h4
     justify-content: space-around;
     background-color: #8BD3E1;
     align-items: center;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
 }
 
