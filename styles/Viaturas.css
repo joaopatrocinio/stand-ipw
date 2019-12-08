@@ -38,6 +38,11 @@ ul{
   margin-right: 20px;
 }
 
+.Buttons > a{
+    text-decoration: none;
+    color: black;
+}
+
 table{
   border: 2px solid black;
   padding: 0px;
@@ -61,4 +66,9 @@ table{
 
 .Espacamento{
   padding-left: 20px;
+}
+
+.page-title
+{
+    border: 1px solid rgba(0, 0, 0, 0.466)
 }

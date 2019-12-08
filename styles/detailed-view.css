@@ -5,6 +5,7 @@ html{
 body{
     margin-left: 0px; /* Ajustar como for melhor para o geral do site*/
     font-family: verdana;
+    margin: 0px;
 }
 .page-title{
     display: flex;
@@ -71,8 +72,13 @@ body{
     width: 624px; /*Para ajustar com o carrossel */
 }
 
+fieldset
+{
+    border: 1px solid rgb(128, 128, 128);
+}
+
 #sideMsgBox{
-    /* height: 422px; */ 
+    /* height: 422px; */
 }
 
 /* Nav e footer*/
@@ -89,6 +95,12 @@ body{
     padding: 0px 15px;
     color: #ffffff;
     cursor: pointer;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: white;
 }
 
 .active

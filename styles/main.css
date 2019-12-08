@@ -10,11 +10,6 @@ body
     margin: 0 auto;
 }
 
-#main-nav
-{
-
-}
-
 #main-nav ul {
     list-style-type: none;
     margin: 0;
@@ -138,4 +133,10 @@ footer > p
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: white;
 }
