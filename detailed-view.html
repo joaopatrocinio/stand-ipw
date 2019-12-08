@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="detailed-view.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Auto Phoenix</title>
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="nav-wrapper">
+            <div>
+                <img src="img/logo.jpg">
+            </div>
+            <ul>
+                <li class="active">INICIO</li>
+                <li>VIATURAS</li>
+                <li>CONTACTOS</li>
+            </ul>
+            <input type="search" placeholder="Pesquisar" class="search-bar">
+        </div>
+    </nav>
+    
+    <div class="page-title">
+        <h1>Ficha da viatura <!-- - Nome do carro(JS) --></h1>
+    </div>
+    <div class="content">
+        <article class="car-content"> <!-- O nome das classes pode ser mudado dps -->
+            <section class="carousel" > <!-- Substituir conteudo pelo carrossel-->
+                <div>
+                    <img id="imgMercedes" src="img/imgMercedes2.jpg">
+                </div>
+                <img id="imgMini1" src="img/imgMercedes.jpg">
+                <img id="imgMini2" src="img/imgMercedes3.jpg">
+                <img id="imgMini3" src="img/imgMercedes4.jpg">
+                <img id="imgMini4" src="img/imgMercedes5.jpg"> <!-- Para testes -->
+                <!-- Carrossel -->
+            </section>
+
+            <section class="carInfo">
+                <div class="msgCard">
+                        <!--Info do carro (Num card) -->
+                        <fieldset id="infoBox">
+                            <legend> Informação detalhada:</legend>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat illum sunt ipsa rerum odit quae nulla quam minima. Facere, officia amet! Harum nostrum sequi explicabo laboriosam, laborum cum quae.</p>
+                        </fieldset>
+                    </div>
+            </section>
+        </article>
+
+        <aside class="car-aside">
+            <h3 id="car-title">Mercedes-Benz AMG GT</h3> <!--Esta info vai ser buscada a uma db (Mock?) -->
+            <p>Ano - 2018 | 900Km </p> <!--Esta info vai ser buscada a uma db (Mock?) -->
+            <h3> 162.500€</h3>
+
+            <div class="msgCard">
+                <!--Card para mensagem-->
+                <fieldset id="sideMsgBox">
+                    <legend>Contacte-nos</legend>
+                    <label>Nome:</label><br><input id="txtNomeContact" type="text"><br>
+                    <label>Email:</label><br><input id="txtEmailContact" type="email"><br>
+                    <label>Mensagem:</label><br><textarea rows="5" cols="50"></textarea> <!-- 18 rows se aumentar o tamanho da sideMsgBox-->
+                </fieldset>
+            </div>
+
+            <div class="msgCard">
+                <!--Card para contactos -->
+                <fieldset id="sidemCtcBox">
+                    <!--Contactos ficticios-->
+                    <h1>Contactos:</h1>
+                    <p>Telefone: 202 555 0147</p> 
+                    <p>Telemóvel: +351 209 105 024</p>
+                    <p>Email: autophoenix@stand.pt</p>
+                </fieldset>
+            </div>
+        </aside>
+        
+    </div>
+</body>
+<footer>
+    <p>Stand IPW © 2019 - All rights reserved.</p>
+</footer>
+
+</html>
