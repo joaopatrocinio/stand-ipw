@@ -42,7 +42,20 @@
                         <!--Info do carro (Num card) -->
                         <fieldset id="infoBox">
                             <legend> Informação detalhada:</legend>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat illum sunt ipsa rerum odit quae nulla quam minima. Facere, officia amet! Harum nostrum sequi explicabo laboriosam, laborum cum quae.</p>
+                            <p>Quilómetros:	900Km</p>
+                            <p>Mês/Ano:	10/2018</p>
+                            <p>Cilindrada: 3982cc</p>
+                            <p>Cilindros: 8</p>
+                            <p>Cylinder Layout:	V8</p>
+                            <p>Potência: 350 kW</p>
+                            <p>Velocidade máxima: 300km/h</p>
+                            <p>Combustível: Gasolina</p>
+                            <p>Capacidade: 75L</p>
+                            <p>Cor Exterior: Cinza</p>
+                            <p>Cor interior: Preto</p>
+                            <p>Transmissão: Automatica</p>
+                            <p>Portas: 2</p>
+                            <p>Lugares: 2</p>
                         </fieldset>
                     </div>
             </section>
@@ -51,15 +64,18 @@
         <aside class="car-aside">
             <h3 id="car-title">Mercedes-Benz AMG GT</h3> <!--Esta info vai ser buscada a uma db (Mock?) -->
             <p>Ano - 2018 | 900Km </p> <!--Esta info vai ser buscada a uma db (Mock?) -->
-            <h3> 162.500€</h3>
+            <h3>PREÇO: 162.500€</h3>
 
             <div class="msgCard">
                 <!--Card para mensagem-->
                 <fieldset id="sideMsgBox">
                     <legend>Contacte-nos</legend>
-                    <label>Nome:</label><br><input id="txtNomeContact" type="text"><br>
-                    <label>Email:</label><br><input id="txtEmailContact" type="email"><br>
-                    <label>Mensagem:</label><br><textarea rows="5" cols="50"></textarea> <!-- 18 rows se aumentar o tamanho da sideMsgBox-->
+                    <form action="mailto:autophoenix@stand.pt" method="post" enctype="text/plain">
+                        <label>Nome:</label><br><input id="txtNomeContact" name="nome" type="text"><br>
+                        <label>Email:</label><br><input id="txtEmailContact" name="email"type="email"><br>
+                        <label>Mensagem:</label><br><textarea name="mensagem" rows="5" cols="50"></textarea><br> <!-- 18 rows se aumentar o tamanho da sideMsgBox-->
+                        <div id="divBtnEmail"><input id="btnEmail"type="submit" value="Enviar"></div>
+                      </form> 
                 </fieldset>
             </div>
 
@@ -74,7 +90,6 @@
                 </fieldset>
             </div>
         </aside>
-
     </div>
 </body>
 <footer>
