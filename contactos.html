@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto Phoenix - Inicio</title>
+        <meta charset="utf-8">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/contactos.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+    </head>
+
+    <body>
+        <nav id="main-nav">
+            <div class="nav-wrapper">
+                <div>
+                    <img src="img/logo.jpg">
+                </div>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="viaturas.html">VIATURAS</a></li>
+                    <li class="active"><a href="contactos.html">CONTACTOS</a></li>
+                </ul>
+                <input type="search" placeholder="Pesquisar" class="search-bar">
+            </div>
+        </nav>
+        <div id="wrapper">
+            <div class="contactos-grid">
+                <div class="mapa">
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=instituto%20politecnico%20de%20setubal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+                <div class="contactos-list">
+                    <div class="list-grid">
+                        <div id="list-horario">
+                            <h4>Horario:</h4>
+                            <ul>
+                                <li>08:00 - 12:00</li>
+                                <li>13:00 - 17:00</li>
+                            </ul>
+                        </div>
+                        <div id="list-morada">
+                            <h4>Morada:</h4>
+                            <ul>
+                                <li>Rua da Liberdade 25<br>1700-859 Lisboa<br>Portugal</li>
+                            </ul>
+                        </div>
+                        <div id="list-telefone">
+                            <h4>Telefone:</h4>
+                            <ul>
+                                <li>Tlm. - 926582647</li>
+                                <li>Fax. - 212857463</li>
+                            </ul>
+                        </div>
+                        <div id="list-email">
+                            <h4>Email:</h4>
+                            <a href="mailto:duvidas@autophoenix.pt">duvidas@autophoenix.pt</a>
+                            <a href="mailto:marketing@autophoenix.pt">marketing@autophoenix.pt</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactos-lower">
+                    <fieldset id="sideMsgBox">
+                        <legend>Contacte-nos</legend>
+                        <label>Nome:</label><br><input id="txtNomeContact" type="text"><br>
+                        <label>Email:</label><br><input id="txtEmailContact" type="email"><br>
+                        <label>Mensagem:</label><br><textarea></textarea> <!-- 18 rows se aumentar o tamanho da sideMsgBox-->
+                        <br><input type="submit" value="Enviar">
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Stand IPW © 2019 - All rights reserved.</p>
+        </footer>
+    </body>
+</html>
