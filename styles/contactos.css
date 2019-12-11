@@ -79,3 +79,17 @@
     height:100%;
     width:100%
 }
+
+.page-title
+{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: #ffe9a4;
+    margin: auto;
+    padding: 25px;
+}
+
+.page-title > h1
+{
+    width: 1000px;
+    margin: auto;
+}

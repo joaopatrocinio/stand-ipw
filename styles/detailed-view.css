@@ -11,19 +11,39 @@ body{
 #divBtnEmail{
     text-align: center;
 }
-.page-title{
+
+/* Codigo do header antigo */
+/*-------------------------*/
+
+/*.page-title{
     display: flex;
     align-items: center;
     background-color: #FFE9A4;
     width: 120vw;
     height: 100px;
     border: 1px solid rgba(0, 0, 0, 0.466);
-    
+
 }
 
 .page-title > h1{
     margin: 7vw;
+}*/
+/*--------------------------*/
+
+.page-title
+{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: #ffe9a4;
+    margin: auto;
+    padding: 25px;
 }
+
+.page-title > h1
+{
+    width: 1000px;
+    margin: auto;
+}
+
 .content{
     display: flex;
     padding-top: 9vh;
@@ -45,7 +65,7 @@ body{
     order: 2;
     flex-grow: 0.2;
     flex-direction: column;
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 
 #car-title{
@@ -130,17 +150,24 @@ li > a
     align-items: center;
     /* max-width: 1300px; */
     margin: auto;
-    width: 120.2vw;
+    /*width: 120.2vw;*/
 }
 
 footer
 {
     padding: 10px;
     background-color: #8BD3E1;
-    width: 120.2vw;
+    /*width: 120.2vw;*/
 }
 
 footer > p
 {
     text-align: center;
+}
+
+.search-bar
+{
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 15px;
 }
