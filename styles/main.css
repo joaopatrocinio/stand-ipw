@@ -145,3 +145,32 @@ li > a
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 700px)
+{
+    #slogan
+    {
+        display: none !important;
+    }
+}
+
+#slogan
+{
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    color: #383838;
+    background-color: #ffda64d1;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    width: min-content;
+    height: fit-content;
+}
