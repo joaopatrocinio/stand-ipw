@@ -12,7 +12,7 @@ body
 
 #main-nav
 {
-
+    background-color: #8BD3E1;
 }
 
 #main-nav ul {
@@ -98,7 +98,7 @@ section > header > h4
     justify-content: space-around;
     background-color: #8BD3E1;
     align-items: center;
-    /* max-width: 1300px; */
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -138,4 +138,10 @@ footer > p
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: white;
 }
