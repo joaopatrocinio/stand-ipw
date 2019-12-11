@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/detailed-view.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Auto Phoenix - Detalhes</title>
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="nav-wrapper">
+            <div>
+                <img src="img/logosite.png">
+            </div>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="viaturas.html">VIATURAS</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+            </ul>
+            <!-- <input type="search" placeholder="Pesquisar" class="search-bar"> --> <!--Ativado quando houver javascript-->
+        </div>
+    </nav>
+
+    <div class="page-title">
+        <h1>Ficha da viatura <!-- - Nome do carro(JS) --></h1>
+    </div>
+    <div class="content">
+        <article class="car-content">
+            <section class="carousel" > <!-- Substituir conteudo pelo carrossel-->
+                <div>
+                    <img id="mainImg" src="img/imgAstra2.jpg">
+                </div>
+                <img id="imgMini1" src="img/imgAstra1.jpg">
+                <img id="imgMini2" src="img/imgAstra4.jpg">
+                <img id="imgMini3" src="img/imgAstra5.jpg">
+                <img id="imgMini4" src="img/imgAstra3.jpg"> 
+                <!-- Carrossel -->
+            </section>
+
+            <section class="carInfo">
+                <div class="msgCard">
+                        <!--Info do carro (Num card) -->
+                        <fieldset id="infoBox">
+                            <legend> Informação detalhada:</legend>
+                            <p>Quilómetros:82.000Km</p>
+                            <p>Mês/Ano:10/2014</p>
+                            <p>Cilindrada: 1.248 cc</p>
+                            <p>Potência: 95 cv</p>
+                            <p>Velocidade máxima: 280km/h</p>
+                            <p>Combustível: Diesel</p>
+                            <p>Capacidade: 52L</p>
+                            <p>Cor Exterior: Preto</p>
+                            <p>Cor interior: Preto</p>
+                            <p>Transmissão: Manual</p>
+                            <p>Portas: 5</p>
+                            <p>Lugares: 5</p>
+                        </fieldset>
+                    </div>
+            </section>
+        </article>
+
+        <aside class="car-aside">
+            <h3 id="car-title">	Opel Astra 1.3 CDTi Selection S/S</h3> <!--Esta info vai ser buscada a uma db (Mock?) -->
+            <p>Ano - 2014 | 82.000Km </p> <!--Esta info vai ser buscada a uma db (Mock?) -->
+            <h3>PREÇO: 11.900€</h3>
+
+            <div class="msgCard">
+                <!--Card para mensagem-->
+                <fieldset id="sideMsgBox">
+                    <legend>Contacte-nos</legend>
+                    <form action="mailto:autophoenix@stand.pt" method="post" enctype="text/plain">
+                        <label>Nome:</label><br><input id="txtNomeContact" name="nome" type="text"><br>
+                        <label>Email:</label><br><input id="txtEmailContact" name="email"type="email"><br>
+                        <label>Mensagem:</label><br><textarea id="txtMsgContact" name="mensagem" rows="5" cols="50"></textarea><br> <!-- 18 rows se aumentar o tamanho da sideMsgBox-->
+                        <div id="divBtnEmail"><input id="btnEmail"type="submit" value="Enviar"></div>
+                      </form>
+                </fieldset>
+            </div>
+
+            <div class="msgCard">
+                <!--Card para contactos -->
+                <fieldset id="sideCtcBox">
+                    <!--Contactos ficticios-->
+                    <h1>Contactos:</h1>
+                    <p>Telefone: 202 555 0147</p>
+                    <p>Telemóvel: +351 209 105 024</p>
+                    <p>Email: autophoenix@stand.pt</p>
+                </fieldset>
+            </div>
+        </aside>
+    </div>
+</body>
+<footer>
+    <p>Stand IPW © 2019 - All rights reserved.</p>
+</footer>
+
+</html>
