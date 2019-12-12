@@ -68,7 +68,7 @@ body{
 }
 
 #car-title{
-    color: #8BD3E0;
+    color: #FFAD49;
     font-size: 19px;
     margin: 0px;
 }
@@ -107,6 +107,15 @@ fieldset{
 
 #sideMsgBox, #sideCtcBox{
     width: 75%;
+}
+
+#btnEmail
+{
+    background-color: #FFAD49;
+    font-weight: bold;
+    height: 35px;
+    border: 2px solid;
+    width: 100%;
 }
 /* Nav e footer*/
 
