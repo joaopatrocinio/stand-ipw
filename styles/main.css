@@ -12,7 +12,7 @@ body
 
 #main-nav
 {
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
 }
 
 #main-nav ul {
@@ -85,10 +85,11 @@ section > header > h4
 
 .colored-section
 {
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
     padding-top: 1px;
     margin-top: -5px;
     padding-bottom: 30px;
+    color: white;
 }
 
 .nav-wrapper
@@ -96,7 +97,7 @@ section > header > h4
 
     display: flex;
     justify-content: space-around;
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
     align-items: center;
     max-width: 1300px;
     margin: auto;
@@ -105,7 +106,8 @@ section > header > h4
 footer
 {
     padding: 10px;
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
+    color: white;
 }
 
 footer > p
@@ -173,4 +175,10 @@ li > a
     text-overflow: ellipsis;
     width: min-content;
     height: fit-content;
+}
+
+.carro-destaque > a
+{
+    text-decoration: none;
+    color: black;
 }

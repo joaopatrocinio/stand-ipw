@@ -22,10 +22,10 @@ ul{
 }
 .Buttons{
   border: 2px solid black;
-  background-color: #FFE9A4;
+  background-color: #ffad49;
   padding: 5px;
   cursor: pointer;
-  width: 100px;
+  width: 80px;
   float: right;
   margin-right: 20px;
 }
@@ -63,7 +63,7 @@ table{
 .page-title
 {
     border: 1px solid rgba(0, 0, 0, 0.466);
-    background-color: #ffe9a4;
+    background-color: #ffad49;
     margin: auto;
     padding: 25px;
 }
@@ -72,4 +72,9 @@ table{
 {
     width: 1000px;
     margin: auto;
+}
+
+.espaco-botao
+{
+    height: 60px;
 }

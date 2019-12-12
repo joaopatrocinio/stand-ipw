@@ -32,7 +32,7 @@ body{
 .page-title
 {
     border: 1px solid rgba(0, 0, 0, 0.466);
-    background-color: #ffe9a4;
+    background-color: #ffad49;
     margin: auto;
     padding: 25px;
 }
@@ -145,7 +145,7 @@ li > a
 {
     display: flex;
     justify-content: space-around;
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
     align-items: center;
     /* max-width: 1300px; */
     margin: auto;
@@ -155,8 +155,9 @@ li > a
 footer
 {
     padding: 10px;
-    background-color: #8BD3E1;
+    background-color: #3a3a3a;
     /*width: 120.2vw;*/
+    color: white;
 }
 
 footer > p
