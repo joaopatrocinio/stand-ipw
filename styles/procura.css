@@ -1,0 +1,44 @@
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 50px;
+border: 1px solid black;
+width: fit-content;
+margin-bottom: 50px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; padding: 0 20px;}
+
+.Imagens
+{
+    height:200px;
+    margin:auto;
+    display: block;
+}
+
+.page-title
+{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: #ffad49;
+    margin: auto;
+    padding: 25px;
+}
+
+h4
+{
+    color: #FFAD49;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+body{
+    font-family: Verdana;
+    margin: 0px;
+  }
+
+  
