@@ -28,3 +28,13 @@ document.getElementById("imgMini1").src = "img/" + carro.imagens[1];
 document.getElementById("imgMini2").src = "img/" + carro.imagens[2];
 document.getElementById("imgMini3").src = "img/" + carro.imagens[3];
 document.getElementById("imgMini4").src = "img/" + carro.imagens[4];
+
+let temp;
+
+document.querySelectorAll('.carousel-img').forEach(item => {
+    item.addEventListener('click', event => {
+        temp = document.getElementById("mainImg").src;
+        document.getElementById("mainImg").src = item.src;
+        item.src = temp;
+    })
+})
