@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favicon.ico" />
     </head>
-    <body>
+    <body onload="teste()">
         <nav id="main-nav">
             <div class="nav-wrapper">
                 <div>
@@ -19,7 +19,9 @@
                     <li><a href="viaturas.html">VIATURAS</a></li>
                     <li><a href="contactos.html">CONTACTOS</a></li>
                 </ul>
-                <input type="search" placeholder="Pesquisar" class="search-bar"><!--Ativado quando houver javascript-->
+                <form action="procura.html">
+                    <input type="search" name="query" placeholder="Pesquisar" class="search-bar"><!--Ativado quando houver javascript-->
+                </form>
             </div>
         </nav>
 
@@ -27,20 +29,13 @@
             <h1> Pesquisa </h1>
         </div>
 
-        <div class="parent">
-            <div class="div2">
-                <h4 class="AlinharEsquerda Espacamento">  Nome do veiculo </h4> <!-- Mercedes AMG GT -->
-                <p> XX.XXX € </p> <!-- 50.000€ -->
-                <input type = "button" value="Detalhes">
-            </div>
-            <div class="div1"> 
-                <img src="img/imgMercedes2.jpg" class="Imagens"> </img>
-            </div>
-        </div>    
+        <div id="results"></div> 
 
     </body>
     <footer>
         <p>Stand IPW © 2020 - All rights reserved.</p>
     </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/procura.js"></script>
 </body>
 </html>

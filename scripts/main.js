@@ -36,3 +36,16 @@ let carros = [
         "imagens": ["imgAstra2.jpg", "imgAstra1.jpg", "imgAstra3.jpg", "imgAstra4.jpg", "imgAstra5.jpg"]
     }
 ];
+
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
