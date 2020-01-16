@@ -33,6 +33,6 @@ let carros = [
         "ano": 2014, 
         "kms": 82000, 
         "preco": 11900,
-        "imagens": ["imgAstra2.jpg", "imgAstra.jpg", "imgAstra3.jpg", "imgAstra4.jpg", "imgAstra5.jpg"]
+        "imagens": ["imgAstra2.jpg", "imgAstra1.jpg", "imgAstra3.jpg", "imgAstra4.jpg", "imgAstra5.jpg"]
     }
 ];
