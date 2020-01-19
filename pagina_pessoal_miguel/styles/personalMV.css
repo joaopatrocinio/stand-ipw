@@ -1,0 +1,124 @@
+body
+{
+    margin: 0px;
+    font-family: Verdana;
+    background-color: #3A4D63; /* #3D5168; /* +- esta cor */
+    color: rgb(236, 234, 226);
+}
+
+#main-body{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#main-nav
+{
+    background-color: #3a3a3a;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#main-nav li {
+    float: left;
+    padding: 0px 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.active
+{
+    font-weight: bold;
+}
+
+#main-nav img
+{
+    height: 110px;
+    vertical-align: middle;
+}
+
+.nav-wrapper
+{
+    display: flex;
+    justify-content: center;
+    background-color: #3a3a3a;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    text-decoration: none;
+}
+
+footer
+{
+    position:absolute;
+    top:200vh;
+    width:100%;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+footer > p
+{
+    text-align: center;
+}
+
+#imgLocal{
+    height: 210px;
+    display: none;
+}
+
+#imgPerfil{
+    height: 125px;
+    width: 125px;
+}
+
+#imgHobbies, #imgFormacao{
+    max-width: 500px;
+    max-height: 280px;
+    display: none;
+    /* width: 35vw;
+    height: 37vh; */
+}
+
+.spanClick{
+    color: rgb(255, 125, 125);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#intro{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 8vh;
+}
+
+#Content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14vh;
+}
+
+#divHobbies, #divFormacao{
+    /* padding-right: 1vw; */
+    display: none;
+}
+
+button, h3{
+    display: inline;
+    -webkit-transition: color 0.5s, font-size 0.5s;
+    transition: color 0.5s, font-size 0.5s;
+}
+
+h3:hover{
+    font-size: 20px;
+    color: rgb(255, 125, 125);
+    cursor: pointer;
+}
+
+#divThemeHobbies, #divThemeFormacao{
+    margin-bottom: 2vh;
+}

@@ -11,7 +11,8 @@
 
 .mapa { grid-area: 1 / 1 / 2 / 2; }
 .contactos-list { grid-area: 1 / 2 / 2 / 3; }
-.contactos-lower { grid-area: 2 / 1 / 3 / 3; }
+.contactos-lower { grid-area: 2 / 1 / 2 / 2; }
+.paginas-pessoais { grid-area: 2 / 2 / 3 / 3; }
 
 .list-grid
 {
@@ -34,6 +35,7 @@
     .mapa { grid-area: 1 / 1 / 2 / 2; }
     .contactos-list { grid-area: 2 / 1 / 3 / 2; }
     .contactos-lower { grid-area: 3 / 1 / 4 / 2; }
+    .paginas-pessoais { grid-area: 4 / 1 / 5 / 2; }
 }
 
 #list-horario { grid-area: 1 / 1 / 2 / 2; }
@@ -92,4 +94,11 @@
 {
     margin: auto;
     max-width: 1000px;
+}
+
+.paginas-pessoais a 
+{
+    color: blue;
+    text-decoration: underline;
+    padding: 5px;
 }

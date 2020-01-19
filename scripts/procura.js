@@ -4,6 +4,11 @@ var results = carros.filter(function(carro) {
 });
 
 var x = results.length;
+if (x <= 0)
+{
+    document.getElementById("results").innerHTML = "Não foram encontradas viaturas para a pesquisa inserida.";
+}
+else
 for (i = 0; i < x; i++)
 {
     let parent = document.createElement("div");

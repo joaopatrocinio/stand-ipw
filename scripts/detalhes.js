@@ -16,6 +16,19 @@ document.getElementById("imgMini2").src = "img/" + carro.imagens[2];
 document.getElementById("imgMini3").src = "img/" + carro.imagens[3];
 document.getElementById("imgMini4").src = "img/" + carro.imagens[4];
 
+document.getElementById("kms").innerHTML = carro.kms;
+document.getElementById("mes_ano").innerHTML = carro.mes_ano;
+document.getElementById("cilindrada").innerHTML = carro.cilindrada.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+document.getElementById("potencia").innerHTML = carro.potencia;
+document.getElementById("vel_max").innerHTML = carro.vel_max;
+document.getElementById("combustivel").innerHTML = carro.combustivel;
+document.getElementById("capacidade").innerHTML = carro.capacidade;
+document.getElementById("cor_ext").innerHTML = carro.cor_ext;
+document.getElementById("cor_int").innerHTML = carro.cor_int;
+document.getElementById("transmissao").innerHTML = carro.transmissao;
+document.getElementById("portas").innerHTML = carro.portas;
+document.getElementById("lugares").innerHTML = carro.lugares;
+
 let temp;
 
 document.querySelectorAll('.carousel-img').forEach(item => {

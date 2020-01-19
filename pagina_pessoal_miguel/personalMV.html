@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/personalMV.css">
+	<script src="scripts/personalMV.js"></script>
+	<title>Página Pessoal - Miguel Velez</title>
+</head>
+<!--https://moodle.ips.pt/1920/mod/resource/view.php?id=354279 GUIÃO-->
+	<body>
+		<nav id="main-nav">
+			<div class="nav-wrapper">
+				<ul>
+					<li class="active"><a title="Voltar para Auto Phoenix" href="../index.html"><img src="img/logo_autophoenix.png"></a></li> <!-- Meter o link para o site principal-->
+				</ul>
+			</div>
+		</nav>
+
+		<div id="intro">
+			<h1> Miguel Velez </h1>
+			<img id="imgPerfil" src="img/perfil.png">
+		</div>
+
+		<div id="main-body">
+			<h2> Quem sou eu? </h2>
+			<p>O meu nome é Miguel Velez, tenho 19 anos e sou de <span id="Localidade" title="Local" class="spanClick" onclick="toggleImg(this.id)"> Vale de Milhaços (Seixal)</span>. Sou um aluno de 1º ano do CTeSP de TPSI na Escola Superior de Tecnologia de Setúbal.</p>
+			<p>O meu objetivo, no futuro, é fazer um programa, website ou aplicação que realmente seja muito útil para os seus utilizadores, e que estes gostem de usar. </p>
+			<img id="imgLocal" src="img/localidade.PNG">
+			<!-- <button type="button" onclick="showHobbies()">Hobbies</button>
+			<button type="button" onclick="showFormacao()">Formação</button> -->
+	
+			<div id="Content">
+				<div id="divThemeHobbies">
+					<h3 onclick="toggleMostrarHobbies(); " id="clkMostrarHobbies" title="Clique para mostrar ou esconder o conteúdo"> Hobbies </h3>
+					<p id="initialTextHobbie">Nos meus tempos livres gosto de ...</p>
+					<div id="divHobbies">
+						<p>Nos meus tempos livres gosto de ver <span id="TV" title="Hobbies" class="spanClick" onclick="toggleImg(this.id)">filmes ou séries de televisão</span>, gosto de <span id="Game" title="Hobbies" class="spanClick" onclick="toggleImg(this.id)">jogar</span> e ainda de assistir a <span id="Fut" title="Hobbies" class="spanClick" onclick="toggleImg(this.id)">jogos de futebol, de preferência do Benfica</span>. Sempre que posso gosto de ir ao estádio ver um jogo ao vivo, ou ao cinema ver um filme em vez de o fazer em casa.</p>
+						<p>Anteriormente jogava ténis, mas devido a uma lesão no joelho não consegui voltar a um nível competitivo como antes e isso fez-me perder o gosto e a motivação de jogar ténis.</p>
+						<img id="imgHobbies" src="img/Fut.jfif"> 
+					</div>
+				</div>
+				<div id="divThemeFormacao">
+					<h3 onclick="toggleMostrarFormacao()" id="btnMostrarFormacao" title="Clique para mostrar ou esconder o conteúdo"> Formação </h3>
+					<p id="initialTextFormacao">Comecei o 1º ciclo do ensino básico na ...</p>
+					<div id="divFormacao">
+						<p>Comecei o 1º ciclo do ensino básico na <span id="N1" title="Formacao" class="spanClick" onclick="toggleImg(this.id)">Escola Básica Nº1 do Feijó</span>, no 2º ciclo frequentei a <span id="Alembranca" title="Formacao" class="spanClick" onclick="toggleImg(this.id)">Escola básica da Alembrança</span> também no Feijó. O 3º ciclo foi repartido entre a Escola da Alembrança e a <span id="Romeu" title="Formacao" class="spanClick" onclick="toggleImg(this.id)">Escola Secundária Romeu Correia</span>. No final do 3º ciclo decidi seguir o curso de ciências e tecnologia, na mesma escola, mas não gostei porque eu queria aprender a programar e o curso não me ensinava nada do que prentendia e ainda tinha uma dificuldade elevada para coisas que não me interessavam. </p>
+						<p>Decidi então mudar para um Curso Profissional de Gestão e Programação de Sistemas Informáticos na <span id="EPED" title="Formacao" class="spanClick" onclick="toggleImg(this.id)">Escola Profissional de Educação para o Desenvolvimento </span>. No final deste curso a escola propocionou um estágio numa empresa de programação, a <span id="Cleverti" title="Formacao" class="spanClick" onclick="toggleImg(this.id)">Cleverti</span>. Na Cleverti aprendi muito graças a todos os funcionários da empresa que sempre me ajudaram durante estes tempos, fazendo deste estágio uma experiência que não irei esquecer. Considero estes 4 meses, o tempo em que mais me desenvolvi como programador e como pessoa num contexto de trabalho. </p>
+						<img id="imgFormacao" src="img/EPED.jpg">
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+        <footer id="footer">
+            <p>Miguel Velez - 2020</p>
+        </footer>
+	</body>
+</html>
