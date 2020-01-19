@@ -86,7 +86,7 @@ let carros = [
         "ano": 2018,
         "kms": 18000,
         "preco": 79990,
-        "imagens": ["imgBmw2.jpg", "imgBmw1.png", "imgBmw3.png", "imgBmw4.png", "imgBmw5.png"],
+        "imagens": ["imgBmw2.png", "imgBmw1.png", "imgBmw3.png", "imgBmw4.png", "imgBmw5.png"],
         "mes_ano": "01/2018",
         "cilindrada": 3000,
         "potencia": 450,
