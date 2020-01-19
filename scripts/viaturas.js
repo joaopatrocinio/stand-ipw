@@ -1,9 +1,4 @@
-var results = carros.filter(function(carro) {
-    carro.nomeCompleto = carro.marca + " " + carro.modelo;
-    return carro.nomeCompleto.indexOf(findGetParameter("query")) > -1;
-});
-
-var x = results.length;
+var x = carros.length;
 for (i = 0; i < x; i++)
 {
     let parent = document.createElement("div");
@@ -15,20 +10,19 @@ for (i = 0; i < x; i++)
     let img = document.createElement("img");
     
     parent.classList.add("parent");
-    parent.id = results[i].id;
+    parent.id = carros[i].id;
     div1.classList.add("div1");
     div2.classList.add("div2");
     h4.classList.add("AlinhasEsquerda");
-    h4.classList.add("Espacamento");
-    h4.innerHTML = results[i].marca + " " + results[i].modelo;
-    p.innerHTML = results[i].preco + "€";
+    h4.innerHTML = carros[i].marca + " " + carros[i].modelo;
+    p.innerHTML = carros[i].preco + "€";
     button.type = "button";
     button.value = "Detalhes";
     button.addEventListener('click', function (event) {
         var id = event.target.parentNode.parentNode.id;
         window.location.href = "detalhes.html?id=" + id;
     });
-    img.src = "img/" + results[i].imagens[0];
+    img.src = "img/" + carros[i].imagens[0];
     img.classList.add("Imagens");
     
     div1.appendChild(img);

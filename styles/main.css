@@ -81,6 +81,7 @@ body
 .marca figcaption
 {
     text-align: center;
+    cursor: pointer;
 }
 
 #marcas

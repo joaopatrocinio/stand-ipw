@@ -15,7 +15,7 @@ margin: 15px auto;
 
 .Imagens
 {
-    height:200px;
+    width: 300px;
     /*margin:auto;*/
     display: block;
     border-right: 1px solid black;
@@ -23,10 +23,16 @@ margin: 15px auto;
 
 .page-title
 {
-    border: 1px solid rgba(0, 0, 0, 0.466);
-    background-color: #ffad49;
-    margin: auto;
-    padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.466);
+  background-color: #ffad49;
+  margin: auto;
+  padding: 25px;
+}
+
+.page-title > h1
+{
+  margin: auto;
+  max-width: 1000px;
 }
 
 h4

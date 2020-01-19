@@ -51,10 +51,10 @@ table{
   padding-left: 0pt;
 }
 
-.Imagens{
+/*.Imagens{
   width: 350px;
   height: 270px;
-}
+}*/
 
 .Espacamento{
   padding-left: 20px;
@@ -70,11 +70,35 @@ table{
 
 .page-title > h1
 {
-    width: 1000px;
     margin: auto;
+    max-width: 1000px;
 }
 
 .espaco-botao
 {
     height: 60px;
 }
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 700px;
+  margin: 15px auto;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 3; padding: 0 20px;}
+  
+  .Imagens
+  {
+      width: 300px;
+      /*margin:auto;*/
+      display: block;
+      border-right: 1px solid black;
+  }

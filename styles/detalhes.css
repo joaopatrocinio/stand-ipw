@@ -39,13 +39,13 @@ body{
 
 .page-title > h1
 {
-    width: 1000px;
     margin: auto;
+    max-width: 1000px;
 }
 
 .content{
     display: flex;
-    padding-top: 9vh;
+    padding-top: 50px;
     margin-bottom: 2vh;
 }
 
@@ -93,20 +93,12 @@ body{
 }
 
 #infoBox{
-    margin: 1vh 0 0 0;
-    width: 624px; /*Para ajustar com o carrossel */
-}
-
-fieldset{
-    border: 1px solid rgb(128, 128, 128);
+    /*margin: 1vh 0 0 0;*/
+    /*width: 624px;Para ajustar com o carrossel */
 }
 
 #sideCtcBox{
-    margin-top: 210.814px; /*36.3vh;*/
-}
-
-#sideMsgBox, #sideCtcBox{
-    width: 75%;
+    /*margin-top: 210.814px; 36.3vh;*/
 }
 
 #btnEmail
@@ -116,6 +108,7 @@ fieldset{
     height: 35px;
     border: 2px solid;
     width: 100%;
+    margin-top: 15px;
 }
 /* Nav e footer*/
 
@@ -184,4 +177,50 @@ footer > p
 .carousel-img
 {
     cursor: pointer;
+}
+
+.parent
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    margin: 5px 7vw;
+    width: 100%;
+}
+    
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+.div2 { grid-area: 3 / 1 / 5 / 2; }
+.div3 { grid-area: 1 / 2 / 2 / 3; }
+.div4 { grid-area: 3 / 2 / 4 / 3; }
+
+@media (max-width: 1000px) 
+{
+    .parent
+    {
+        display: block;
+    }
+    .div1 { margin: 10px 0px; }
+    .div2 { margin: 10px 0px; }
+    .div3 { margin: 10px 0px; }
+    .div4 { margin: 10px 0px; }
+    #mainImg{
+        max-width: 650px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.msgCard
+{
+    border: 1px solid rgb(128, 128, 128);
+    padding: 15px;
+    height: fit-content;
+}
+
+hr 
+{
+    border: 1px solid #ffad48;
+    margin: 5px 0px;
 }
