@@ -81,8 +81,8 @@ let carros = [
     },
     {
         "id": 5,
-        "marca": "Bmw",
-        "modelo": "BMW M4 Competition Cabrio LCI",
+        "marca": "BMW",
+        "modelo": "M4 Competition Cabrio LCI",
         "ano": 2018,
         "kms": 18000,
         "preco": 79990,
