@@ -1,6 +1,8 @@
 var results = carros.filter(function(carro) {
+    let query = findGetParameter("query").toString().toLowerCase();
     carro.nomeCompleto = carro.marca + " " + carro.modelo;
-    return carro.nomeCompleto.indexOf(findGetParameter("query")) > -1;
+    carro.nomeCompleto = carro.nomeCompleto.toLowerCase();
+    return carro.nomeCompleto.indexOf(query) > -1;
 });
 
 var x = results.length;

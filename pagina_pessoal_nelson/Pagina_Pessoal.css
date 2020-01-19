@@ -1,0 +1,66 @@
+.WebSites{
+  color: #ffe319d6;
+  font-size: 20px;
+}
+
+#dolar{
+  color: yellow;
+  font-size: 200%;
+}
+.Table{
+  border: 2px;
+  border-width: 10px;
+  border-style:outset;
+  background-color: #ffe319d6;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Text{
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffffff52;
+  width: fit-content;
+  margin : auto;
+}
+.Title{
+  text-align: center;
+  font-size: 150%;
+}
+.CenterImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.BackGround{
+  background-image:url('imagemPaginap/catsfight.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+footer
+{
+    position:absolute;
+    top:200vh;
+    width:100%;
+    background-color: #ffe319d6;
+    color: black;
+}
+
+footer > p
+{
+    text-align: center;
+}
+
+#divInfomacoes{
+    display: none;
+}
+
+#divTemaInformacao{
+    margin-bottom: 2vh;
+}
