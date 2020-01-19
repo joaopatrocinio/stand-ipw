@@ -15,7 +15,7 @@ for (i = 0; i < x; i++)
     div2.classList.add("div2");
     h4.classList.add("AlinhasEsquerda");
     h4.innerHTML = carros[i].marca + " " + carros[i].modelo;
-    p.innerHTML = carros[i].preco + "€";
+    p.innerHTML = carros[i].preco.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "€";
     button.type = "button";
     button.value = "Detalhes";
     button.addEventListener('click', function (event) {
