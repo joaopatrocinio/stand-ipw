@@ -78,15 +78,15 @@ let carros = [
         "transmissao": "Manual",
         "portas": 5,
         "lugares": 5
-    }
+    },
     {
         "id": 5,
-        "marca": "Bmw",
-        "modelo": "BMW M4 Competition Cabrio LCI",
+        "marca": "BMW",
+        "modelo": "M4 Competition Cabrio LCI",
         "ano": 2018,
         "kms": 18000,
         "preco": 79990,
-        "imagens": ["imgBmw2.jpg", "imgBmw1.jpg", "imgBmw3.jpg", "imgBmw4.jpg", "imgBmw5.jpg"],
+        "imagens": ["imgBmw2.png", "imgBmw1.png", "imgBmw3.png", "imgBmw4.png", "imgBmw5.png"],
         "mes_ano": "01/2018",
         "cilindrada": 3000,
         "potencia": 450,
