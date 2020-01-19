@@ -152,7 +152,7 @@ footer > p
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 20px;
 }
 

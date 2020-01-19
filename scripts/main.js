@@ -102,7 +102,7 @@ let carros = [
     {
         "id": 6,
         "marca": "Fiat",
-        "modelo": "Fiat 500 Abarth",
+        "modelo": "500 Abarth",
         "ano": 2019,
         "kms": 14,
         "preco": 21990,

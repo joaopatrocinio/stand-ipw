@@ -59,6 +59,8 @@ function toggleMostrarHobbies() {
         img.src="img/EPED.jpg";
     if(imgName == "Cleverti") 
         img.src="img/Cleverti.jpg";
+    if(imgName == "Tennis")
+        img.src="img/Tennis.jpg";
 
     if(img.style.display === "inline")
         img.style.display = "none";
