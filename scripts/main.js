@@ -98,6 +98,26 @@ let carros = [
         "transmissao": "Automatica",
         "portas": 3,
         "lugares": 4
+    },
+    {
+        "id": 6,
+        "marca": "Fiat",
+        "modelo": "Fiat 500 Abarth",
+        "ano": 2019,
+        "kms": 14,
+        "preco": 21990,
+        "imagens": ["imgFiat1.png", "imgFiat2.png", "imgFiat3.png", "imgFiat4.png", "imgFiat5.png"],
+        "mes_ano": "05/2019",
+        "cilindrada": 1400,
+        "potencia": 145,
+        "vel_max": 230,
+        "combustivel": "Gasolina",
+        "capacidade": 45,
+        "cor_ext": "Cinzeto",
+        "cor_int": "Preto/Vermelho",
+        "transmissao": "Manual",
+        "portas": 3,
+        "lugares": 4
     }
   ];
 
