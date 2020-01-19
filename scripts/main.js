@@ -99,7 +99,7 @@ let carros = [
         "portas": 3,
         "lugares": 4
     }
-];
+  ];
 
 function findGetParameter(parameterName) {
     var result = null,
