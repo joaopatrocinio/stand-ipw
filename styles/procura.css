@@ -53,3 +53,17 @@ body{
 {
   padding: 30px;
 }
+
+.divBtnEmail
+{
+  background-color: #FFAD49;
+  font-weight: bold;
+  height: 35px;
+  border: 2px solid;
+  width: 100px;
+  text-align: center;
+  padding-top: 3px;
+  height: 23px;
+  cursor: pointer;
+  float: right;
+}
