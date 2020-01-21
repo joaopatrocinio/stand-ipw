@@ -9,3 +9,10 @@ var images = document.querySelectorAll(".marca>img").forEach(function (image) {
         window.location.href = "procura.html?query=" + image.nextElementSibling.innerHTML;
     });
 });
+
+var images_destaques = document.querySelectorAll(".carro-destaque>img").forEach(function (image) {
+    var link = image.nextElementSibling.href;
+    image.addEventListener('click', function (event) {
+        window.location.href = link;
+    });
+});

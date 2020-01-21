@@ -147,6 +147,7 @@ footer > p
 .carro-destaque > img
 {
     width: 200px;
+    cursor: pointer;
 }
 
 .destaques
